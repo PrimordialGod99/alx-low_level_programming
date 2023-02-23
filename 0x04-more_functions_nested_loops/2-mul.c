@@ -4,10 +4,10 @@
  * mul - multiply 2 int
  * @a: first int
  * @b: second int
- * Return: Always 0
+ * Return: addition of the multiplication
  */
 
 int mul(int a, int b)
 {
-	return (0);
+	return (a * b);
 }
