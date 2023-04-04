@@ -6,12 +6,13 @@
  *
  * Return: number of nodes
  */
+
 size_t listint_len(const listint_t *h)
 {
-    size_t num;
+	size_t num;
 
-    for (num = 0; h != NULL; num++)
-        h = h->next;
+	for (num = 0; h != NULL; num++)
+		h = h->next;
 
-    return num;
+	return (num);
 }
